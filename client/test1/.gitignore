@@ -8,7 +8,7 @@
 # testing
 /coverage
 
-# package
+# packagegit
 /package-lock.json
 
 # production

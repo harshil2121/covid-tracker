@@ -26,7 +26,7 @@ function Covid(){
             setRegionData(result.data.regionData)
         })        
     },[])
-    
+    //
     const handleChange=(ev)=>{
         setLast(ev.target.value)
         const filter=regionData.find(i=>i.region === ev.target.value)
